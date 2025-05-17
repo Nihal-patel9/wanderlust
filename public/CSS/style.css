@@ -1,3 +1,6 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
 /* Navbar Styles */
 .navbar{
     height: 5rem;
@@ -50,3 +53,28 @@
      align-items: center;
      justify-content: space-evenly;
  }
+
+/* Cards */
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important; 
+}
+
+.listing-link{
+    text-decoration: none;
+}
