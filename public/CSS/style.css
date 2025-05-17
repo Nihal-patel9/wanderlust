@@ -1,3 +1,52 @@
-body{
-    background-color: pink;
+/* Navbar Styles */
+.navbar{
+    height: 5rem;
+    background-color: white;
 }
+
+.icon {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222 !important;
+ }
+
+ .f-info-links a {
+     text-decoration: none;
+     color: #222;
+ }
+
+ .f-info-links a:hover {
+     text-decoration: underline;
+ }
+
+ .f-info-socials,
+ .f-info-links,
+ .f-info-brand {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .f-info-socials i {
+     margin-right: 1rem;
+ }
+
+ .f-info-socials a {
+     color: black;
+     border: none;
+ }
+
+ .f-info {
+     text-align: center;
+     height: 8rem;
+     display: flex;
+     background-color: #ebebeb;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+ }
